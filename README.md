@@ -7,7 +7,7 @@ Here are the various capabilities.
 1. Add new product: POST /api/v1/products/
 2. Retrieve all products: GET /api/v1/products/
 3. Retrieve a single product by by code: GET /api/v1/products/:code (i.e. /api/v1/products/phone1)
-4. Retrieve a list of products by Tag: GET /api/v1/products/tag/:tag (i.e. /api/v1/products/tag/phone)
+4. Retrieve a list of products by Tag: GET /api/v1/products/?tag=[tag] (i.e. /api/v1/products/?tag=phone)
 
 
 ## Assumptions
